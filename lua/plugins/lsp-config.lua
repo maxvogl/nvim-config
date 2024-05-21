@@ -19,6 +19,10 @@ return {
           "tsserver", -- JavaScript
           "julials", -- Julia
           "lua_ls", -- Lua
+          -- IN CASE OF <pylsp> OPEN THE FOLLOWING PATH:
+          -- ~/.local/share/nvim/mason/packages/python-lsp-server/venv/pyvenv.cfg
+          -- AND SET:
+          -- include-system-site-packages = true
           "pylsp", -- Python
           -- "",  -- SQL
         },
